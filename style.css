@@ -74,12 +74,20 @@ body {
 }
 
 .card-back {
+    background-image:url('image/back.png');
+    background-size:cover;
+    background-position:center center;
     transform: rotateY(180deg);
-    background:white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.card-back .card-image {
+    width:180px;
+    height:180px;
+    margin:0 auto;
 }
 
 .card-back p {
@@ -95,7 +103,6 @@ body {
 .card-back .card-icons a {
     font-size:18px;
     color:white;
-    background:black;
     width:42px;
     height:42px;
     border-radius:100%;
@@ -105,6 +112,7 @@ body {
     justify-content: center;
     text-decoration: none;
     transition:opacity .2s;
+    bottom: 1px;
 }
 
 .card-back .card-icons a:hover {
