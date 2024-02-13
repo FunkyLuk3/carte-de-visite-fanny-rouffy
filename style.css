@@ -24,8 +24,8 @@ body {
 
 .card {
     margin:0 auto;
-    width:350px;
-    height:200px;
+    width: 25%;;
+    height: 25%;
     perspective: 1000px;
     text-align: center;
 }
