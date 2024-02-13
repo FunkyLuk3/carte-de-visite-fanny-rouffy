@@ -24,8 +24,8 @@ body {
 
 .card {
     margin:0 auto;
-    width:240px;
-    height:320px;
+    width:350px;
+    height:200px;
     perspective: 1000px;
     text-align: center;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .card-front {
-    background-image:url('image/front.png');
+    background-image:url('image/front_card.png');
     background-size:cover;
     background-position:center center;
     display:flex;
@@ -74,7 +74,7 @@ body {
 }
 
 .card-back {
-    background-image:url('image/back.png');
+    background-image:url('image/back_card.png');
     background-size:cover;
     background-position:center center;
     transform: rotateY(180deg);
